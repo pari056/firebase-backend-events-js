@@ -1,6 +1,11 @@
 export class FirebaseEvents {
 
-    constructor()
+    /**
+     * Constructor for FirebaseEvents class.
+     * @param {string} firebaseAppId - The Firebase App ID for your project.
+     * @param {string} apiSecret - The API Secret for your Firebase project.
+     */   
+    constructor(firebaseAppId: string, apiSecret: string)
   
     /**
      * Method to add a new event or update an existing event.
